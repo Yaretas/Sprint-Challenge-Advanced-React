@@ -33,5 +33,22 @@
 .dark-mode{
     background: #313D5A;
     box-shadow: 5px 5px 10px #73628A;
-    text-shadow: 3px 3px 5px #73628A;
+    
+
+    button{
+        background: #73628A;
+        color: #EAEAEA;
+        border: 2px solid #EAEAEA;
+    }
+
+    h1{
+        color: #EAEAEA;
+        text-shadow: 3px 3px 5px #73628A;
+    }
+
+    .playerCard{
+        border: 2px solid #EAEAEA;
+        box-shadow: 5px 5px 10px #73628A;
+    }
+
 }
