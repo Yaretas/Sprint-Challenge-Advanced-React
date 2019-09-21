@@ -1,10 +1,16 @@
 .playerCard{
     padding: 20px;
-    background: #313D5A;
+    background: #73628A;
     color: #EAEAEA;
     margin: 10px;
     border: 2px solid black;
     border-radius: 5px;
+    box-shadow: 5px 5px 10px #313D5A;
+    text-shadow: 3px 3px 5px #313D5A;
+}
+
+.dark-mode{
+    background: #313D5A;
     box-shadow: 5px 5px 10px #73628A;
     text-shadow: 3px 3px 5px #73628A;
 }
