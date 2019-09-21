@@ -1,5 +1,4 @@
 import React from 'react';
-import '../Components/card.scss';
 
 export default function PlayerStats({name , country, searches}) {
     return(

@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import './Components/card.scss';
+
 import Nav from './Components/Nav';
 import PlayerStats from './Components/PlayerStats';
 
