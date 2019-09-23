@@ -7,3 +7,10 @@ it('renders without crashing', () => {
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
+
+test("Does Nav exist?", () => {
+  const navBar = <Nav />;
+  expect(navBar).toBeDefined();
+  expect(navBar).not.toBeUndefined();
+  expect(navBar).not.toBeFalsy();
+});
