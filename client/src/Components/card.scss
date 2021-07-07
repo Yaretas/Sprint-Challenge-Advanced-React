@@ -1,0 +1,54 @@
+.playerCard{
+    padding: 20px;
+    background: #73628A;
+    color: #EAEAEA;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #313D5A;
+    text-shadow: 3px 3px 5px #313D5A;
+}
+
+.nav-bar{
+    padding: 15px;
+    // background: #313D5A;
+    color: #EAEAEA;
+}
+
+.dark-modeToggle{
+}
+
+.dark-modeToggle button{
+    padding: 10px 25px;
+    font-size: 20px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px #73628A;
+    border-radius: 3px;
+    &:hover{
+        font-weight: bold;
+        box-shadow: 5px 5px 10px black;
+    }
+}
+
+.dark-mode{
+    background: #313D5A;
+    box-shadow: 5px 5px 10px #73628A;
+    
+
+    button{
+        background: #73628A;
+        color: #EAEAEA;
+        border: 2px solid #EAEAEA;
+    }
+
+    h1{
+        color: #EAEAEA;
+        text-shadow: 3px 3px 5px #73628A;
+    }
+
+    .playerCard{
+        border: 2px solid #EAEAEA;
+        box-shadow: 5px 5px 10px #73628A;
+    }
+
+}
